@@ -15,5 +15,6 @@ spec:
       containers:
       - name: html-app
         image: sohailsheikh/html-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
